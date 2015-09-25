@@ -41,6 +41,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+<property name="crashlytics.project.path" location="PROJECT.ROOT"></property>
+<property name="crashlytics.manifest.path" location="MANIFEST.PARENT/AndroidManifest.xml"></property>
+<property name="crashlytics.res.path" location="RES.PARENT/res"></property> << "Hello world";
   <!--
 
     Define where the ANTLR releated jars are deployed both for
